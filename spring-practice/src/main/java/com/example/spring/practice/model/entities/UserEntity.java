@@ -1,4 +1,4 @@
-package com.example.spring.practice.model.repository.entities;
+package com.example.spring.practice.model.entities;
 
 
 import lombok.*;

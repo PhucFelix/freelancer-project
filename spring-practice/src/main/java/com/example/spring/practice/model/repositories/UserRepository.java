@@ -1,7 +1,7 @@
-package com.example.spring.practice.model.repository;
+package com.example.spring.practice.model.repositories;
 
 
-import com.example.spring.practice.model.repository.entities.UserEntity;
+import com.example.spring.practice.model.entities.UserEntity;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 

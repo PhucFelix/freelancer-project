@@ -1,11 +1,10 @@
-package com.example.spring.practice.model.repository.entities;
+package com.example.spring.practice.model.entities;
 
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import javax.persistence.*;
-import java.util.Objects;
 import java.util.Set;
 
 @Getter
