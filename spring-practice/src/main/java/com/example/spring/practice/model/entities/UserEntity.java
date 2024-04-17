@@ -15,7 +15,7 @@ import java.util.Objects;
 @Table(name = "users")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @NamedQuery(name = "Course.findAllByCategoryAndRating", query = "select c from USER c where c.category=?1 and c.rating=?2")
-public class UserEntity {
+public class UserEntity extends CommonEntiy{
 
     @Id
     @Column(name = "ID")

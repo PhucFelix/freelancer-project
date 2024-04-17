@@ -14,7 +14,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Table(name = "ROLE")
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class RoleEntiy {
+public class RoleEntiy extends CommonEntiy {
 
     @Id
     @Column(name = "ID")
