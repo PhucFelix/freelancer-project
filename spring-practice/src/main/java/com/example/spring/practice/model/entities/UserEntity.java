@@ -14,7 +14,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @Table(name = "users")
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@NamedQuery(name = "Course.findAllByCategoryAndRating", query = "select c from USER c where c.category=?1 and c.rating=?2")
+//@NamedQuery(name = "Course.findAllByCategoryAndRating", query = "select c from USER c where c.category=?1 and c.rating=?2")
 public class UserEntity extends CommonEntiy{
 
     @Id
