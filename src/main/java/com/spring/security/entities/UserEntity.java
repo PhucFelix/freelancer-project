@@ -26,6 +26,6 @@ public class UserEntity {
     @Column
     String password;
 
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "users")
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "users")
     List<RoleEntity> roles;
 }
